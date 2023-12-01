@@ -1,12 +1,9 @@
 <?php 
 
-/**
- * Nesse caso hipotetico, usamos nesse documento o NameSpace Pedido que tem a classe ItemPedido
- */
-include "Pedido.php";
 
+include '/home/vinic/coding/PHP/EstudosPHP/UseNamespace/Pedido.php';
 
-use Teste\ItemPedido;
+use \UseNamespace\Teste\ItemPedido;
 
 $obPedido = new ItemPedido();
 

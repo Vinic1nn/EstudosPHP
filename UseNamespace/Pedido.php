@@ -1,9 +1,11 @@
 <?php
 
-namespace Teste;
+namespace UseNamespace\Teste;
 
-class ItemPedido {
-    public function pedido() {
+class ItemPedido
+{
+    public function pedido()
+    {
         echo "Item do Pedido!";
     }
 }
