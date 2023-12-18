@@ -1,4 +1,9 @@
-<?php 
+<?php
+
+/*
+Uma Trait é similar a uma classe, mas destina-se apenas a agrupar funcionalidade 
+de uma forma refinada e consistente. Não é possível instanciar uma Trait por si só.
+*/
 
 declare(strict_types= 1);
 
